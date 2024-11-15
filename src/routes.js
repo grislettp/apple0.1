@@ -1,8 +1,33 @@
+import { element } from 'prop-types'
 import React from 'react'
+
 
 const Dashboard = React.lazy(() => import('./views/dashboard/Dashboard'))
 const Colors = React.lazy(() => import('./views/theme/colors/Colors'))
 const Typography = React.lazy(() => import('./views/theme/typography/Typography'))
+
+
+
+
+//Users
+const listCustomers = React.lazy(() => import('./views/Users/Customers/Customers'))
+const ListEmployees = React.lazy(() => import('./views/Users/Employees/Employees'))
+
+//Products
+const listProducts= React.lazy(() => import('./views/Products/List/List'))
+
+//Sales & Orders 
+const ListSales= React.lazy(() => import('./views/Sales & Orders/Sales/Sales'))
+const ListOrders= React.lazy(() => import('./views/Sales & Orders/Orders/Orders'))
+
+//Suppliers
+const ListSuppliers= React.lazy(() => import('./views/Suppliers/List/List'))
+
+
+//reports
+const  ReportCustomers= React.lazy(() => import('./views/Reports & Analytics/Customers_Report/Customers_Report'))
+const ReportSales= React.lazy(() => import('./views/Reports & Analytics/Sales-report/Sales-report'))
+
 
 // Base
 const Accordion = React.lazy(() => import('./views/base/accordion/Accordion'))
@@ -43,17 +68,39 @@ const CoreUIIcons = React.lazy(() => import('./views/icons/coreui-icons/CoreUIIc
 const Flags = React.lazy(() => import('./views/icons/flags/Flags'))
 const Brands = React.lazy(() => import('./views/icons/brands/Brands'))
 
-// Notifications
-const Alerts = React.lazy(() => import('./views/notifications/alerts/Alerts'))
-const Badges = React.lazy(() => import('./views/notifications/badges/Badges'))
-const Modals = React.lazy(() => import('./views/notifications/modals/Modals'))
-const Toasts = React.lazy(() => import('./views/notifications/toasts/Toasts'))
 
 const Widgets = React.lazy(() => import('./views/widgets/Widgets'))
 
 const routes = [
   { path: '/', exact: true, name: 'Home' },
-  { path: '/dashboard', name: 'Dashboard', element: Dashboard },
+  { path: '/dashboard', name: 'Dashboard', element: Dashboard},
+
+//products
+
+{ path: '/Products/List', name: "Products / List", element:listProducts},
+
+
+
+//Suppliers
+
+{ path: '/Suppliers/List', name: "Suppliers / List", element:ListSuppliers},
+
+
+
+   //Users
+   { path: '/Users/Customers', name: "Users / Customers", element: listCustomers},
+   { path: '/Users/Employees', name: "Users/ Employees", element: ListEmployees},
+
+   //reports
+{ path: '/Reports & Analytics/Customers_Report', name: "Reports & Analytics/ Report Customers", element: ReportCustomers},
+{ path: '/Reports & Analytics/Sales-report', name: "Reports & Analytics/Report Sales", element: ReportSales},
+
+//Sales & Orders 
+
+{ path: '/Sales & Orders/Sales', name: "Sales & Orders/Sales", element: ListSales},
+{ path: '/Sales & Orders/Orders', name: "Sales & Orders/Orders ", element: ListOrders},
+
+
   { path: '/theme', name: 'Theme', element: Colors, exact: true },
   { path: '/theme/colors', name: 'Colors', element: Colors },
   { path: '/theme/typography', name: 'Typography', element: Typography },
@@ -91,11 +138,7 @@ const routes = [
   { path: '/icons/coreui-icons', name: 'CoreUI Icons', element: CoreUIIcons },
   { path: '/icons/flags', name: 'Flags', element: Flags },
   { path: '/icons/brands', name: 'Brands', element: Brands },
-  { path: '/notifications', name: 'Notifications', element: Alerts, exact: true },
-  { path: '/notifications/alerts', name: 'Alerts', element: Alerts },
-  { path: '/notifications/badges', name: 'Badges', element: Badges },
-  { path: '/notifications/modals', name: 'Modals', element: Modals },
-  { path: '/notifications/toasts', name: 'Toasts', element: Toasts },
+
   { path: '/widgets', name: 'Widgets', element: Widgets },
 ]
 

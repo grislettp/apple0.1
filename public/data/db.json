@@ -1,0 +1,159 @@
+{
+  "catpro": [
+    { "CodCat": 1, "NomCat": "Telefono" },
+    { "CodCat": 2, "NomCat": "Laptop" },
+    { "CodCat": 3, "NomCat": "Audifonos" }
+  ],
+  "tmacar": [
+    { "CodCar": 1, "CodSup": 2, "FecCar": "2024-11-01", "SubCar": 569, "CodTpa": 1, "CodUsu": 8},
+    { "CodCar": 2, "CodSup": 2, "FecCar": "2024-11-02", "SubCar": 99.98, "CodTpa": 2, "CodUsu": 8}
+  ],
+  "tetdfa": [
+    { "CodFac": 1, "CodPro": 102, "CanPro": 2, "TotPro": 100 },
+    { "CodFac": 1, "CodPro": 101, "CanPro": 2, "TotPro": 600 },
+    { "CodFac": 2, "CodPro": 102, "CanPro": 1, "TotPro": 49.99 }
+  ],
+  "tmafac": [
+    { "CodFac": 1, "CedUsu": 2, "FecFac": "2024-11-01", "SubFac": 700, "CodTpa": 1 },
+    { "CodFac": 2, "CedUsu": 4, "FecFac": "2024-11-02", "SubFac": 49.99, "CodTpa": 2 }
+  ],
+  "tmamod": [
+    { "CodMod": "MOD123", "DesMod": "Modelo Básico" },
+    { "CodMod": "MOD456", "DesMod": "Modelo Avanzado" }
+  ],
+  "tmapro": [
+    { "CodPro": 101, "NomPro": "Iphone 10", "PrePro": 299.99, "CodMod": "MOD123", "CodCat": 1 },
+    { "CodPro": 102, "NomPro": "Macbook", "PrePro": 49.99, "CodMod": "MOD456", "CodCat": 2 }
+  ],
+  "tmarol": [
+    { "CodRol": 1, "NomRol": "Employeer" },
+    { "CodRol": 2, "NomRol": "Customer" },
+    { "CodRol": 3, "NomRol": "Supplier" }
+  ],
+  "tmausu": [
+    {
+      "CodUsu": 1,
+      "CedUsu": 30609563,
+      "NomUsu": "Juan",
+      "ApeUsu": "Pérez",
+      "ConUsu": "contrasena123",
+      "CodRol": 1
+    },
+    {
+      "CodUsu": 2,
+      "CedUsu": 30609564,
+      "NomUsu": "Luis",
+      "ApeUsu": "Torres",
+      "ConUsu": "contrasena456",
+      "CodRol": 2
+    },
+    {
+      "CodUsu": 3,
+      "CedUsu": 30609565,
+      "NomUsu": "Carlos",
+      "ApeUsu": "Ramírez",
+      "ConUsu": "contrasena789",
+      "CodRol": 1
+    },
+    {
+      "CodUsu": 4,
+      "CedUsu": 30609566,
+      "NomUsu": "Ana",
+      "ApeUsu": "González",
+      "ConUsu": "contrasena012",
+      "CodRol": 2
+    },
+    {
+      "CodUsu": 5,
+      "CedUsu": 30609567,
+      "NomUsu": "Pedro",
+      "ApeUsu": "Hernández",
+      "ConUsu": "contrasena345",
+      "CodRol": 1
+    },
+    {
+      "CodUsu": 6,
+      "CedUsu": 30609568,
+      "NomUsu": "Marta",
+      "ApeUsu": "López",
+      "ConUsu": "contrasena678",
+      "CodRol": 3
+    },
+    {
+      "CodUsu": 7,
+      "CedUsu": 30609569,
+      "NomUsu": "Javier",
+      "ApeUsu": "Martínez",
+      "ConUsu": "contrasena910",
+      "CodRol": 1
+    },
+    {
+      "CodUsu": 8,
+      "CedUsu": 30609570,
+      "NomUsu": "Isabel",
+      "ApeUsu": "Sánchez",
+      "ConUsu": "contrasena112",
+      "CodRol": 3
+    },
+    {
+      "CodUsu": 9,
+      "CedUsu": 30609571,
+      "NomUsu": "Antonio",
+      "ApeUsu": "García",
+      "ConUsu": "contrasena234",
+      "CodRol": 1
+    },
+    {
+      "CodUsu": 10,
+      "CedUsu": 30609572,
+      "NomUsu": "Clara",
+      "ApeUsu": "Díaz",
+      "ConUsu": "contrasena345",
+      "CodRol": 3
+    },
+    {
+      "CodUsu": 11,
+      "CedUsu": 30609573,
+      "NomUsu": "Francisco",
+      "ApeUsu": "Ruiz",
+      "ConUsu": "contrasena456",
+      "CodRol": 1
+    },
+    {
+      "CodUsu": 12,
+      "CedUsu": 30609574,
+      "NomUsu": "Raquel",
+      "ApeUsu": "Pérez",
+      "ConUsu": "contrasena567",
+      "CodRol": 1
+    },
+    {
+      "CodUsu": 13,
+      "CedUsu": 30601231,
+      "NomUsu": "Tobias",
+      "ApeUsu": "Mendes",
+      "ConUsu": "contrasenaasxbausuygu",
+      "CodRol": 1
+    }
+  ],
+  "tmetpa": [
+    { "CodTpa": 1, "NomTpa": "Tarjeta de Crédito" },
+    { "CodTpa": 2, "NomTpa": "Efectivo" }
+  ],
+  "ttealm": [
+    { "CodPro": 101, "CanPro": 50 },
+    { "CodPro": 102, "CanPro": 20 }
+  ],
+  "ttedcar": [
+    { "CodCar": 1, "CodPro": 101, "CanPro": 1, "TotPro": 299.99 },
+    { "CodCar": 1, "CodPro": 102, "CanPro": 3, "TotPro": 270 },
+    { "CodCar": 2, "CodPro": 102, "CanPro": 2, "TotPro": 99.98 }
+  ],
+  "ventas": [
+    { "CodFac": 1, "CodUsu":13 },
+    { "CodFac": 2, "CodUsu":13}
+  ]
+
+  
+}
+

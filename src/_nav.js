@@ -79,11 +79,11 @@ const _nav = [
     to: '/Reports & Analytics',
     icon: <CIcon icon={cilGraph} customClassName="nav-icon" />,
     items: [
-      {
-        component: CNavItem,
-        name: 'Report Customers',
-        to: '/Reports & Analytics/Customers_Report',
-      }, 
+      // {
+      //   component: CNavItem,
+      //   name: 'Report Customers',
+      //   to: '/Reports & Analytics/Customers_Report',
+      // }, 
       {
         component: CNavItem,
         name: 'Report Sales',
@@ -135,23 +135,7 @@ const _nav = [
   },
 
 
-  {
-   
 
-    //Financias
-    component: CNavGroup,
-    name: 'Financials', //Financias 
-    to: '/Financials',
-    icon: <CIcon icon={cilDollar} customClassName="nav-icon" />,
-    items: [
-      {
-        component: CNavItem,
-        name: 'Invoices',
-        to: '/Financials/Invoices',
-      }, 
-   
-    ],
-  },
 
 
 
